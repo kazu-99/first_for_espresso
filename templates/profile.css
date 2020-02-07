@@ -1,0 +1,57 @@
+header{
+    background-color: saddlebrown;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+}
+
+#title{
+    text-align: center;
+    height: 60px;
+}
+
+#setting{
+    border-right: solid;
+    margin-right: 5px;
+    grid-column: 1/2;
+}
+
+.set_btns{
+    border: none;
+    width:100%;
+}
+
+
+
+
+
+.tweet{
+    display: grid;
+    grid-template-rows: 30px 1fr;
+    grid-template-columns: 40px 1fr;
+    border: double;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+#icon{
+    grid-row:1/3;
+    grid-column: 1/2;
+}
+
+#username{
+    grid-row:1/2;
+    grid-column: 2/3;
+}
+
+#tweet_content{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+#btns{
+    grid-row: 3/4;
+    grid-column: 1/3;
+}

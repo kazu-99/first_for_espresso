@@ -1,0 +1,40 @@
+header{
+    background-color: saddlebrown;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+}
+
+#title{
+    text-align: center;
+    height: 60px;
+}
+
+#setting{
+    border-right: solid;
+    margin-right: 5px;
+    grid-column: 1/2;
+}
+
+.set_btns{
+    border: none;
+    width:100%;
+}
+
+
+
+
+
+#search_word{
+    text-align: center;
+    width: 100%;
+}
+
+#search_box{
+    height: 40px;
+    width: 300px;
+    border: solid;
+    margin: 0 auto;
+}
